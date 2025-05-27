@@ -4,6 +4,6 @@
 #include <stdio.h>
 
 size_t ft_strlen(const char *s);
-char *ft_strcmp(char *dst, const char *src);
+char *ft_strcpy(char *dst, const char *src);
 
 #endif

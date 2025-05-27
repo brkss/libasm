@@ -2,7 +2,8 @@ NAME = libasm
 
 NAME_LIB = libasm.a
 
-SRCS = 	ft_strlen.s
+SRCS = 	ft_strlen.s \
+		ft_strcpy.s
 
 CC = gcc
 
