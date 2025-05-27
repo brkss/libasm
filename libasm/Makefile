@@ -3,7 +3,8 @@ NAME = libasm
 NAME_LIB = libasm.a
 
 SRCS = 	ft_strlen.s \
-		ft_strcpy.s
+		ft_strcpy.s \
+		ft_strcmp.s
 
 CC = gcc
 

@@ -11,10 +11,15 @@ int main() {
 
 	printf("\n==================== FT_STRCPY  ====================\n");
 	char buff[100];
-	//char *strcpy_output = ft_strcpy(buff, "Copy This Plz");
 	printf("ft_strcpy output : %s\n", ft_strcpy(buff, "Copy This Plz"));
 	printf("\n==================== FT_STRCPY  ====================\n\n\n");
 	
+	printf("\n==================== FT_STRCMP  ====================\n");
+	char *s1 = "Hello";
+	char *s2 = "World";
+	printf("ft_strcpy output : %d\nstrcmp output : %d\n", ft_strcmp(s1, s2), strcmp(s1, s2));
+	printf("\n==================== FT_STRCMP  ====================\n\n\n");
+
 	
 	return (0);
 
