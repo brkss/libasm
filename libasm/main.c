@@ -41,6 +41,14 @@ int main() {
 
 	printf("\n==================== FT_READ  ====================\n\n\n");
 
+	printf("\n==================== FT_READ  ====================\n");
+
+	char *dup = ft_strdup("this is duplicated :(");
+	printf("ft_strdup output : %s\n", dup);
+
+	printf("\n==================== FT_READ  ====================\n\n\n");
+
+
 
 
 
