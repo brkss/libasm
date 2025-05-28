@@ -19,6 +19,20 @@ int main() {
 	char *s2 = "World";
 	printf("ft_strcpy output : %d\nstrcmp output : %d\n", ft_strcmp(s1, s2), strcmp(s1, s2));
 	printf("\n==================== FT_STRCMP  ====================\n\n\n");
+	
+	printf("\n==================== FT_STRCMP  ====================\n");
+	
+	printf("ft_write output: \n");
+	ft_write(1, "Hello", 5);
+	printf("\n");
+	
+	printf("write output: \n");
+	write(1, "Hello", 5);
+	printf("\n");
+	
+
+	
+	printf("\n==================== FT_STRCMP  ====================\n\n\n");
 
 	
 	return (0);
