@@ -15,7 +15,7 @@ CFLAGS = -Wall -Wextra -Werror
 
 NASM = nasm
 
-NASMFLAGS = -f elf64 -DPIC
+NASMFLAGS = -f elf64
 
 OBJ = $(SRCS:.s=.o)
 
@@ -28,7 +28,7 @@ $(NAME) : $(OBJ)
 	ar rcs $(NAME_LIB) $(OBJ)
 	ranlib $(NAME_LIB)
 
-ccproject :
+test :
 	$(CC) $(CFLAGS) main.c $(NAME_LIB) -o test
 	
 clean :
